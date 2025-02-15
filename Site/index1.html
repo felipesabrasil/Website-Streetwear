@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Evolution Store</title>
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap">
+</head>
+<body>
+  <header>
+      <i class="fas fa-shopping-cart" id="cart-icon"></i>
+      <i class="fas fa-user" id="user-icon"></i>
+  </header>
+  <main class="content">
+    <section class="frase-inteira">
+      <span class="estilo-direto">Estilo Direto</span> 
+      <span class="e-impactante">e Impactante</span>
+      <div class="evolution-store">Evolution Store</div>
+      <div class="regular-text">A Rua é nossa vitrine</div>
+    </section>
+    <section class="image-container">
+      <i class="fas fa-chevron-left arrow-left" onclick="changeImage(-1)"></i> <!-- Ícone de seta esquerda -->
+      <img id="product-image" src="image/bone.png" alt="Imagem Descritiva">
+      <i class="fas fa-chevron-right arrow-right" onclick="changeImage(1)"></i> <!-- Ícone de seta direita -->
+    </section>
+  </main>
+  <header class="secondary-header">
+    <!-- Conteúdo do novo header -->
+    <div class="rectangle">
+      <div class="service">
+        <i class="fas fa-truck"></i>
+        <h3>Entrega Rápida</h3>
+        <p>Receba seus produtos em até 48 horas.</p>
+      </div>
+    </div>
+    <div class="rectangle">
+      <div class="service">
+        <i class="fas fa-credit-card"></i>
+        <h3>Pagamento Seguro</h3>
+        <p>Compre com segurança e praticidade.</p>
+      </div>
+    </div>
+    <div class="rectangle">
+      <div class="service">
+        <i class="fas fa-headphones"></i>
+        <h3>Atendimento Personalizado</h3>
+        <p>Estamos sempre prontos para te ajudar.</p>
+      </div>
+    </div>
+  </header>
+  <script src="script.js"></script>
+</body>
+</html>
